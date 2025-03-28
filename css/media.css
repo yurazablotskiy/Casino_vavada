@@ -1,0 +1,35 @@
+/* Адаптивні стилі */
+@media (max-width: 1200px) {
+  .banner {
+    background-image: url("../img/banner-tablet.jpg");
+  }
+}
+
+@media (max-width: 768px) {
+
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .container .logo {
+    margin-left: 40px;
+  }
+
+  header .container .nav {
+    padding: 0;
+  }
+
+  .banner {
+    background-image: url("../img/banner-mobile.jpg");
+    padding: 80px 20px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .get-bonus {
+    padding: 12px 25px;
+  }
+}
